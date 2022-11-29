@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        .header{
+            background-color: aqua;
+            height: 100px;
+            margin: 1em;
+            text-align: center;
+        }
+        .main{
+            height: 500px;
+            display: flex;
+            margin: 0em 1em 0em 1em;
+        }
+        .footer{
+            background-color: darkgrey;
+            height: 100px;
+            margin: 1em;
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        .article{
+            background-color: crimson;
+            width: 80%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin-left: 1em;
+            
+        }
+        .aside{
+            background-color: cornflowerblue;
+            width: 20%;
+            text-align: center;
+        }
+        .bingkai img{
+            margin: 0.5em;
+        }
+        .bingkai{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Header</h3> 
+        </div>
+
+        <div class="main">
+            <div class="aside">
+                <h3>Aside</h3> 
+            </div>
+            <div class="article">
+                <h3>Article</h3>
+                <div class="bingkai">
+                    <img src="gambar.jpg" alt="">
+                    <img src="gambar.jpg" alt="">
+                    <img src="gambar.jpg" alt="">
+                </div> 
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>Footer</h3> 
+        </div>
+    </div>
+</body>
+</html>
